@@ -65,7 +65,7 @@ namespace RSA_Sample
             if (!string.IsNullOrEmpty(text))
             {
                 planText = encoding.GetBytes(text);
-                cypherText = RsaEnc.Encrypt(planText, rsa.ExportParameters(true), false);
+                cypherText = RsaEnc.Encrypt(planText, rsa.ExportParameters(false), false);
                 var encryptedText = encoding.GetString(cypherText);
                 Console.WriteLine($"Encrypted Text: {encryptedText}");
 
