@@ -30,7 +30,7 @@ namespace RSA_Public_Private_Key_Sample
             return sw.ToString();
         }
 
-        public string PrivateString()
+        public string PrivateKeyString()
         {
             var sw = new StringWriter();
             var xs = new XmlSerializer(typeof(RSAParameters));
@@ -65,7 +65,7 @@ namespace RSA_Public_Private_Key_Sample
             RsaEnc rs = new RsaEnc();
             string cypher = string.Empty;
             Console.WriteLine($"PublicKey: \n {rs.PublicKeyString()}\n");
-            Console.WriteLine($"PrivateKey: \n {rs.PrivateString()}\n");
+            Console.WriteLine($"PrivateKey: \n {rs.PrivateKeyString()}\n");
 
             Console.WriteLine("Enter your text to encrypt");
             var text = Console.ReadLine();
