@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA Sample", "RSA Sample\RS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA Public Private Key Sample", "RSA Public Private Key Sample\RSA Public Private Key Sample.csproj", "{A5A21D7C-F2EE-42E5-A575-ADB211970557}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES Advanced Encryption Standard Sample", "AES Advanced Encryption Standard Sample\AES Advanced Encryption Standard Sample.csproj", "{576F2587-F9FC-4C23-891E-7869A6B1A22D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5A21D7C-F2EE-42E5-A575-ADB211970557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A21D7C-F2EE-42E5-A575-ADB211970557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A21D7C-F2EE-42E5-A575-ADB211970557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576F2587-F9FC-4C23-891E-7869A6B1A22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576F2587-F9FC-4C23-891E-7869A6B1A22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576F2587-F9FC-4C23-891E-7869A6B1A22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576F2587-F9FC-4C23-891E-7869A6B1A22D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
